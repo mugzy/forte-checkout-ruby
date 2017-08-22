@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="forte-stage">
+    <h1>Callback</h1>
+    <ul id="forte-callback-messages"></ul>
+
+    <%= forte_checkout_button 'Pay Now', @order, callback: 'logForteCheckoutEvent' %>
+  </div>
+</div>
