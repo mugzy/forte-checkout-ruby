@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '2.4.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.2.11.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -35,6 +35,8 @@ gem 'rack-timeout'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
 
 group :test, :development do
   gem 'rspec-rails'
